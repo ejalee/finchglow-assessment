@@ -10,4 +10,4 @@ Given a sorted array of distinct integers and a target value, return the index i
 
 ### Who to talk to
 
-Azeez Adigun [@ejalee](https://linkedin.com/in/azeezadigun)
+ [@Azeez Adigun](https://linkedin.com/in/azeezadigun)
