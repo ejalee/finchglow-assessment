@@ -10,7 +10,7 @@ Given a sorted array of distinct integers and a target value, return the index i
 
 ScreenShot:
 
-![Q2 Result](https://github.com/ejalee/finchglow-assessment/blob/master/q2-result.png?raw=true)
+![Q2 Result](https://github.com/ejalee/finchglow-assessment/blob/main/q2-result.png?raw=true)
 
 ### Who to talk to
 
