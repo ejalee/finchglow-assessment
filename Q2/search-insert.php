@@ -45,12 +45,28 @@ function searchInsert($array_input, $target_element) {
 
 // Declare the sorted array of integers
 $arr = array(5, 6, 8, 9, 100);
+$n = count($arr);
 
-//Specify the target element
-$target = 4;
+//Specify the target element within array input
+$t1 = 7;
+$t2 = 8;
+
+//Specify the target element outside array input
+$t3 = 120;
 
 //Invoke the search
-echo "\n Target Index: ". (int)searchInsert($arr, $target)."\n ";
+echo "\n Array of values: ";
+    for ($i = 0; $i < $n; $i++)
+        echo $arr[$i]. " ";
+        
+echo "\n\n Target Number/Value: ". $t1;
+echo "\n Target Index Search: ". (int)searchInsert($arr, $t1)."\n ";
+
+echo "\n Target Number/Value: ". $t2;
+echo "\n Target Index Search: ". (int)searchInsert($arr, $t2)."\n ";
+
+echo "\n Target Number/Value: ". $t3;
+echo "\n Target Index Search: ". (int)searchInsert($arr, $t3)."\n\n ";
 
 
 ?>
